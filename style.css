@@ -1,0 +1,237 @@
+
+/* UNIVERSAL SELECTOR */
+* {
+    border-collapse: collapse;
+}
+
+/* TYPE SELECTORS */
+p {
+    margin-left: 12px;
+    margin-right: 12px;
+}
+body {
+    margin: 0;
+    font-family: Helvetica, Calibri, sans-serif;
+    color: #c0bc99;
+    background-color: #190012;
+}
+#timeTable table, tr, td, thead{  
+    margin: auto;
+    color: #190012;
+    font-size: small;
+    border: 3px #190012 solid;
+}
+#timeTable {
+    height: 46px;
+} 
+fieldset {
+    margin: auto;
+    
+}
+input {
+    font-family: 'Courier New', Courier, monospace;
+    color:  #c0bc99;
+    background-color: #190012;
+}
+select {
+    color: #c0bc99;
+    background-color: #190012;
+}
+h1 {
+    text-align: center;
+}
+
+/* CLASS SELECTORS */
+.booking {
+    background-color: #f4e38e;
+}
+.free {
+    background-color: #ca8c5a;
+}
+.schedule {
+    background-color: #c0bc99;
+}
+.form {
+    color: #c0bc99;
+    height: 23px;
+    margin: auto;
+}
+.doublerow {
+    height: 23px;
+}
+.ast {
+    color: tomato;
+}
+
+/* ID SELECTORS */
+#top {
+    text-align:center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: powderblue;
+}
+#mytitle {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: powderblue;
+}
+#searchHeader {
+    margin-top: 120px;
+}
+#welcome {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-weight: bold;
+    color: crimson;
+}
+#data {
+    width: 280px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+/* ATTRIBUTE SELECTORS */
+[class="userinfo"] {
+    height: 23px;
+}
+
+/* NAVBAR */
+
+/* Style the navigation bar */
+.navbar {
+    display: inline-block;
+    width: 100%;
+    background-color: #ca8c5a;
+    white-space: nowrap;
+}
+  
+  /* Navbar links */
+.navbar a {
+    display: inline-block;
+    text-align: left;
+    padding: 12px;
+    color: #190012;
+    background-color: #ca8c5a;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+  /* Navbar links on mouse-over */
+.navbar a:hover {
+    background-color: #190012;
+    color: #ca8c5a;
+}
+  
+.navitem {
+  display: inline-block;
+  background-color: #ca8c5a;
+}
+
+  /* The container <div> - needed to position the dropdown content */
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+      
+  /* Dropdown Content (Hidden by Default) */
+.dropdown-content {
+    display: none;
+    position: absolute;
+    bottom: 0;
+    transform: translateY(100%);
+}
+  
+  /* Change color of dropdown links on hover */
+.dropdown-content a {
+    width: 100%;
+    white-space: nowrap;
+    float: left;
+    display: block;
+}
+  
+  /* Show the dropdown menu on hover */
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+/* PRODUCT LIST */
+
+#searchHeader {
+    margin-left: 12px;
+}
+#searchbar {
+    width: 400px;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ca8c5a;
+    margin-bottom: 12px;
+    margin-left: 12px;
+  }
+  
+  
+    /* Product Table Item Properties */
+#productTable {
+    
+    border: 1px solid #190012;
+    margin-top: -1px;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 20px;
+    color: #190012; 
+}
+#productTable tr{
+    background-color: #ca8c5a;
+}
+#productTable td{
+    width: 150px;
+}    
+#itemNumber {
+    width: 40px;
+}
+#artwork {
+    width: 150px;
+}
+#medium {
+    width: 150px;
+}
+#artist {
+    width: 150px;
+} 
+#price {
+    width: 80px;
+}
+#description {
+    width: 200px;
+}
+
+    /* List Items on Hover */
+#productTable tr:hover:not(.header) {
+    background-color: #eba56c;
+}
+
+
+    /* CURRENCY FORM */
+
+.conversionForm {
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.formFields {
+    width: 400px;
+    text-align: center;
+}
+#convertFrom {
+    float: left;
+    width: 200px;
+}
+#convertTo {
+    width: 200x;
+}
+#curInput {
+    text-align: center;
+}
+#convertButton {
+    width: 250px;
+}
+
